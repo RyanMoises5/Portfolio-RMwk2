@@ -39,6 +39,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following link is the student's URL to the completed assignment:
 (https://ryanmoises5.github.io/Portfolio-RMwk2/)
 
+The following link is the Github repository where the associated files are located:
+(https://github.com/RyanMoises5/Portfolio-RMwk2)
+
 ---
 2024 edX Boot Camps
 Student: Ryan Moises
