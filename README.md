@@ -34,10 +34,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Mock-Up
+## URL
 
 The following link is the student's URL to the completed assignment:
-(https://ryanmoises5.github.io/Horiseon-Refactor-RMwk1/)
+(https://ryanmoises5.github.io/Portfolio-RMwk2/)
 
 ---
 2024 edX Boot Camps
