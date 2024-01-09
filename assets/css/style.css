@@ -1,14 +1,20 @@
 :root {
-    --bgcolor: #13293d;
+    --bgcolor: #e6dad6;
+    --color1: #83adb5;
+    --color2: #c7bbc9;
+    --color4: #50334b;
+    --color5: #263438;
 }
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif, Arial;
-    color:
+    font-family: sans-serif, Arial, monospace;
+    text-decoration: none;
 }
 
 body {
+    background-color: var(--bgcolor);
+    color: var(--color5);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -16,18 +22,19 @@ body {
   }
 
 .mainHeader {
+    background-color: var(--color5);
+    color: var(--bgcolor);
     padding: 1% 1% 1% 4%;
-    background-color: var(--bgcolor);
-    color: #fffffff8;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
+    background-color: var(--color1);
   }
 
 nav a {
-    color: var(--bgcolor);
+    color: var(--color5);
     padding: 14px 20px;
     font-weight: bold;
     text-decoration: none;
@@ -35,17 +42,44 @@ nav a {
 }
 
 .aboutMe {
-    margin: 3%;
+    margin: 15px 10%;
+    color: var(--color4);
 }
 
 .aboutMe p {
-    margin: 2.5%;
+    font-weight: 600;
 }
 
 hero {
-    display: flex;
     justify-content: center;
-    margin: 0 2.5% 20px 2.5%;
+    text-align: center;
+    flex: 1 0 0;
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+hero header {
+    position: relative;
+    top: 75%;
+    width: 75%;
+    padding: 9px 0px;
+    background: var(--color5);
+    border-color: var(--bgcolor);
+    border-width: 7px;
+    border-radius: 0 5px 5px 0;
+    color: var(--color1);
+    z-index: 1;
+    font-weight: 900;
+}
+
+hero img{
+    position: relative;
+    width: 100%;
+    border-style: solid;
+    border-color: var(--color5);
+    border-width: 10px;
+    border-radius: 12px;
 }
 
 main {
@@ -58,39 +92,53 @@ main {
     text-align: center;
     justify-content: center;
     flex: 1 0 0;
-
     margin: 15px;
-    border-style: solid;
-    border-color: var(--bgcolor);
-    border-width: 7px;
-    border-radius: 10px;
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 250px;
+    max-width: 400px;
 }
   
 .card header {
     position: relative;
-    top: 70%;
+    top: 60%;
     width: 75%;
-    padding: 20px 0px;
-    background: var(--bgcolor);
+    padding: 9px 0px;
+    background: var(--color5);
     border-color: var(--bgcolor);
     border-width: 7px;
     border-radius: 0 5px 5px 0;
-    color: #fff;
+    color: var(--color1);
     z-index: 1;
+    font-weight: 900;
 }
   
 .card img {
     position: relative;
-    bottom: 27.5px;
-    width: 100%
+    bottom: 9%;
+    width: 100%;
+    border-style: solid;
+    border-color: var(--color5);
+    border-width: 10px;
+    border-radius: 10px;
 }
 
 .contactMe {
-    margin: 0 0 0 30px;
+    color: var(--color5);
+    background-color: var(--color1);    
 }
+
+.contactMe h2 {
+    margin: 20px 10% 0 10%;
+}
+
+.contactMe ul li {
+    list-style: none;
+    padding: 5px 0;
+    font-weight: 600;
+    margin: 0 10%;
+}
+
 
 footer {
     text-align: center;
+    color: var(--color4);
 }
